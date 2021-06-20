@@ -1,10 +1,6 @@
 import React, { useState, useEffect } from 'react'
-
 import Pagination from './Pagination';
-
 import './App.css';
-
-
 
 export default function App() {
 

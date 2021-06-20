@@ -12,7 +12,6 @@ if (pageNumbers1.length > total_page)
     pageNumbers1.splice(total_page, pageNumbers1.length)
 }
 
- console.log("Page numbers paging", pageNumbers1)
     return (
         <div>
              <nav>
