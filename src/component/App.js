@@ -28,10 +28,6 @@ export default function App() {
               settotal_page(data.total_pages);
             });
         }
-console.log("Response Data",response_data);
-console.log("User Data",users_list);
-console.log("Pages", no_on_page)
-
 
 const paginate = (pageNumber) => {
   setno_on_page(pageNumber);
@@ -41,12 +37,6 @@ useEffect(() => {
   if (no_on_page)
   fetchData();
 }, [no_on_page]);
-
-
-  
-  useEffect(() => {
-    fetchData();
-    }, []);
 
     return (
         <div className="page-design">
